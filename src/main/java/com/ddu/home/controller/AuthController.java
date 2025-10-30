@@ -15,7 +15,7 @@ import com.ddu.home.entity.User;
 import com.ddu.home.service.UserService;
 
 @RestController
-@RequestMapping("api/auth")
+@RequestMapping("/api/auth")
 public class AuthController {
 
 	@Autowired
